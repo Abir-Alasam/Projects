@@ -12,3 +12,8 @@
   Omnidirectional Drive: Four-wheel holonomic drive provides full movement flexibility.
   
   Arduino Control: Custom algorithm dictates movement and firing sequences based on sensor input.
+## Buoyancy Operated Aquatic Transport (B.O.A.T.) is a 3D-printed, motorized catamaran designed for a collegiate engineering design challenge. The goal was to create a sub-8-inch vessel capable of carrying a 50g payload and traversing a water channel within 30 seconds.
+
+This project involved the full design cycle: conceptualizing three distinct hull designs, evaluating them based on propulsion, stability, and manufacturability, and selecting a dual-hull (catamaran) concept for its superior performance. The final design was modeled in SolidWorks, with buoyancy calculations confirming it would support its own weight and payload. Key features include a custom propeller, a lightweight platform connecting the two hulls, and an integrated motor assembly.
+
+The physical prototype successfully met all competition requirements, demonstrating effective buoyancy, stability, and speed.
