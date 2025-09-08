@@ -30,3 +30,18 @@ Wireless Control: Uses an IR remote for intuitive user input.
 H-Bridge Driver: Safely controls motor direction and operation.
 
 Arduino Integration: Custom firmware decodes IR signals and executes motor commands.
+## Lobster X is a multi-functional, autonomous robot designed for a complex challenge involving navigation, object retrieval, and system disarming. The robot was developed by a multidisciplinary team over a 10-week period, following a full design and validation cycle.
+
+The robot's capabilities include autonomous navigation using wall-following and waypoint tracking, disarming a magnetic "bomb" trigger, swiping an RFID card to disable an alarm, and using a custom gripper mechanism to collect and return "loot" to a starting area. The system integrates an Arduino-based control system with ultrasonic sensors, an IMU, servos, and an RFID module, all powered by a custom-regulated battery pack.
+
+This project provided extensive experience in mechatronics, including mechanical design (SolidWorks), firmware development (sensor integration, PID control, state machines), electrical systems, and rigorous Verification & Validation (V&V) testing.
+
+Key Features:
+
+Autonomous Navigation: Implements wall-following and waypoint algorithms.
+
+Multi-Task Execution: Integrates gripping, RFID swiping, and magnetic disarming routines.
+
+3D-Printed Mechanics: Features custom-designed arms, grippers, and component holders.
+
+Structured V&V Process: Employs a rigorous testing protocol to ensure all system requirements are met.
