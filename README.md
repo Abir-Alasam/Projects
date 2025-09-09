@@ -3,19 +3,19 @@
 A collection of projects focused on mechatronics, embedded systems, and autonomous robotics, developed during my studies in Engineering.
 
 ## Projects
-## The Wrangler - Design II is an autonomous robot built to compete in a ball-shooting challenge. It features a custom gravity-fed launching mechanism powered by geared DC motors and rubber wheels for optimal projectile grip and distance.
+### [The Wrangler - Design II](posterDesign%202.pdf)
+The Wrangler - Design II is an autonomous robot built to compete in a ball-shooting challenge. It features a custom gravity-fed launching mechanism powered by geared DC motors and rubber wheels for optimal projectile grip and distance.
   
   The robot is controlled by an Arduino microcontroller, which processes data from an ultrasonic sensor to make strategic decisions on when to move forward, reverse, and fire its three balls. Its two-tiered base provides a stable and organized       platform for the electronics, while its versatile holonomic drive allows for omnidirectional movement.
   
-  Key Features:
-  
-  Autonomous Targeting: Uses an ultrasonic sensor to detect opponents and adjust strategy.
-  
-  Adjustable Launcher: An angled, torque-based mechanism allows for precise range calibration.
-  
-  Omnidirectional Drive: Four-wheel holonomic drive provides full movement flexibility.
-  
-  Arduino Control: Custom algorithm dictates movement and firing sequences based on sensor input.
+**Key Features:**
+- **Autonomous Targeting:** Uses an ultrasonic sensor to detect opponents and adjust strategy.
+- **Adjustable Launcher:** An angled, torque-based mechanism allows for precise range calibration.
+- **Omnidirectional Drive:** Four-wheel holonomic drive provides full movement flexibility.
+- **Arduino Control:** Custom algorithm dictates movement and firing sequences based on sensor input.
+
+**Key Skills:** `Arduino` `Mechanical Design` `DC Motors` `Ultrasonic Sensors` `Algorithm Design`
+
 ### [Buoyancy Operated Aquatic Transport (B.O.A.T.)](baut%20project.pdf)
 Buoyancy Operated Aquatic Transport (B.O.A.T.) is a 3D-printed, motorized catamaran designed for a collegiate engineering design challenge. The goal was to create a sub-8-inch vessel capable of carrying a 50g payload and traversing a water channel within 30 seconds.
 
@@ -32,15 +32,13 @@ An HX1838 IR receiver captures the modulated signal from the remote, which is th
 
 This project provided hands-on experience with key electrical engineering concepts, including IR signal modulation/demodulation, microcontroller programming, and motor driver circuitry, showcasing a fundamental building block for robotics and automation systems.
 
-Key Features:
-
-Wireless Control: Uses an IR remote for intuitive user input.
-
-H-Bridge Driver: Safely controls motor direction and operation.
-
-Arduino Integration: Custom firmware decodes IR signals and executes motor commands.
+**Key Features:**
+- **Wireless Control:** Uses an IR remote for intuitive user input.
+- **H-Bridge Driver:** Safely controls motor direction and operation.
+- **Arduino Integration:** Custom firmware decodes IR signals and executes motor commands.
 
 **Key Skills:** `Arduino` `IR Communication` `H-Bridge` `Signal Modulation` `Circuit Design`
+
 
 ## [Lobster X](LostorX%20Robot’s%20design%20and%20Implementation.pdf)
 Lobster X is a multi-functional, autonomous robot designed for a complex challenge involving navigation, object retrieval, and system disarming. The robot was developed by a multidisciplinary team over a 10-week period, following a full design and validation cycle.
@@ -49,15 +47,12 @@ The robot's capabilities include autonomous navigation using wall-following and 
 
 This project provided extensive experience in mechatronics, including mechanical design (SolidWorks), firmware development (sensor integration, PID control, state machines), electrical systems, and rigorous Verification & Validation (V&V) testing.
 
-Key Features:
+**Key Features:**
+- **Autonomous Navigation:** Implements wall-following and waypoint algorithms.
+- **Multi-Task Execution:** Integrates gripping, RFID swiping, and magnetic disarming routines.
+- **3D-Printed Mechanics:** Features custom-designed arms, grippers, and component holders.
+- **Structured V&V Process:** Employs a rigorous testing protocol to ensure all system requirements are met.
 
-Autonomous Navigation: Implements wall-following and waypoint algorithms.
-
-Multi-Task Execution: Integrates gripping, RFID swiping, and magnetic disarming routines.
-
-3D-Printed Mechanics: Features custom-designed arms, grippers, and component holders.
-
-Structured V&V Process: Employs a rigorous testing protocol to ensure all system requirements are met.
 **Key Skills:** `SolidWorks` `Arduino` `C++` `Sensor Integration` `3D Printing` `Project Management` `V&V`
 
 ## 📁 Repository Structure
