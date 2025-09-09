@@ -40,7 +40,7 @@ This project provided hands-on experience with key electrical engineering concep
 **Key Skills:** `Arduino` `IR Communication` `H-Bridge` `Signal Modulation` `Circuit Design`
 
 
-### [Lobster X](LostorX%20Robot’s%20design%20and%20implementation.pdf)
+### [Lobster X](LostorX%20Robot%E2%80%99s%20design%20and%20implementation.pdf)
 Lobster X is a multi-functional, autonomous robot designed for a complex challenge involving navigation, object retrieval, and system disarming. The robot was developed by a multidisciplinary team over a 10-week period, following a full design and validation cycle.
 
 The robot's capabilities include autonomous navigation using wall-following and waypoint tracking, disarming a magnetic "bomb" trigger, swiping an RFID card to disable an alarm, and using a custom gripper mechanism to collect and return "loot" to a starting area. The system integrates an Arduino-based control system with ultrasonic sensors, an IMU, servos, and an RFID module, all powered by a custom-regulated battery pack.
