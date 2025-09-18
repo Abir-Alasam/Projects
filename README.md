@@ -3,18 +3,44 @@
 A collection of projects focused on mechatronics, embedded systems, and autonomous robotics, developed during my studies in Engineering.
 
 ## Projects
-### [The Wrangler - Design II](The%20Wrangler.pdf)
-The Wrangler - Design II is an autonomous robot built to compete in a ball-shooting challenge. It features a custom gravity-fed launching mechanism powered by geared DC motors and rubber wheels for optimal projectile grip and distance.
-  
-  The robot is controlled by an Arduino microcontroller, which processes data from an ultrasonic sensor to make strategic decisions on when to move forward, reverse, and fire its three balls. Its two-tiered base provides a stable and organized       platform for the electronics, while its versatile holonomic drive allows for omnidirectional movement.
-  
-**Key Features:**
-- **Autonomous Targeting:** Uses an ultrasonic sensor to detect opponents and adjust strategy.
-- **Adjustable Launcher:** An angled, torque-based mechanism allows for precise range calibration.
-- **Omnidirectional Drive:** Four-wheel holonomic drive provides full movement flexibility.
-- **Arduino Control:** Custom algorithm dictates movement and firing sequences based on sensor input.
+## SmartShelf: IoT Inventory Tracking System
+The SmartShelf is an end-to-end IoT system designed to automate real-time inventory tracking and integration with Odoo ERP. It uses weight sensors and a camera to monitor stock levels on a shelf, providing both quantitative and visual data. The system is built on an ESP32 microcontroller for sensor data acquisition and a Raspberry Pi for data processing, API communication, and serving a live graphical dashboard.
 
-**Key Skills:** `Arduino` `Mechanical Design` `DC Motors` `Ultrasonic Sensors` `Algorithm Design`
+The project involved developing firmware for the ESP32 to read from load cells and a presence sensor, then transmitting this data via MQTT. The Raspberry Pi processes this data, converts weight measurements into item counts, and uses the Odoo XML-RPC API to update inventory levels automatically. A custom Tkinter GUI provides a visual planogram of the shelf, while Grafana dashboards offer live monitoring and historical trends.
+
+**Key Features:**
+
+- **Real-Time ERP Integration:** Automatically updates Odoo inventory levels based on weight measurements.
+
+- **Multi-Sensor Data Fusion:** Combines weight data from load cells with visual verification from a camera.
+
+- **Presence-Based Activation:** Conserves power by only activating measurements when a user is detected.
+
+- **Live Dashboards & GUI:** Features Grafana for data visualization and a custom Tkinter application for a live shelf planogram.
+
+- **End-to-End Automation:** Completes the full data cycle from physical shelf to ERP update in seconds.
+
+**Key Skills:** `ESP32` `Embedded C++` `Raspberry Pi` `Python` `MQTT` `Odoo API` `ERP` `APIs` `Tkinter` `Grafana` `IoT Architecture` `Flask`
+
+
+
+### [SmartShelf - IoT Inventory Tracking System](EmbeddedSystem_intrenship.pdf)
+SmartShelf is an IoT-enabled system designed to automate real-time inventory tracking and synchronize stock levels with **Odoo ERP**. It combines weight sensors, presence detection, and a camera to provide both quantitative and visual data for multiple products on a shelf.
+
+The system uses an **ESP32 microcontroller** to acquire sensor data from **NAU7802 load cells** and **AK9753 presence sensors**, while a **Raspberry Pi** processes the data, converts weight into item counts, and updates Odoo automatically via XML-RPC. A **Tkinter GUI** displays a live planogram of the shelves, and **Grafana dashboards** provide historical trends and real-time analytics. Presence-based activation ensures sensors operate only when a user is nearby, improving power efficiency.
+
+**Key Features:**
+- Designed and developed a first-generation SmartShelf prototype for automated retail inventory tracking.  
+- Developed firmware for real-time data acquisition, wireless communication, power management, and OTA updates.  
+- Implemented a backend with Raspberry Pi, MQTT broker, database, and dashboards for visualization.  
+- Integrated with Odoo ERP for automated stock updates.  
+- Performed prototype calibration, validation, and resilience testing, including latency measurement and automated test scripts.  
+- Added presence-triggered camera capture for future AI-driven analytics.  
+- Built a GUI to visualize shelf activity, product counts, and planogram layouts in real time.  
+- Designed and tested a custom multilayer PCB to integrate all components into a compact SmartShelf node.  
+
+**Key Skills:** `ESP32` `Embedded C++` `Raspberry Pi` `Python` `MQTT` `Odoo API` `Tkinter` `Grafana` `IoT Architecture` `Flask`
+
 
 ### [Buoyancy Operated Aquatic Transport (B.O.A.T.)](Boat%20project.pdf)
 Buoyancy Operated Aquatic Transport (B.O.A.T.) is a 3D-printed, motorized catamaran designed for a collegiate engineering design challenge. The goal was to create a sub-8-inch vessel capable of carrying a 50g payload and traversing a water channel within 30 seconds.
