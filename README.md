@@ -3,27 +3,6 @@
 A collection of projects focused on mechatronics, embedded systems, and autonomous robotics, developed during my studies in Engineering.
 
 ## Projects
-## SmartShelf: IoT Inventory Tracking System
-The SmartShelf is an end-to-end IoT system designed to automate real-time inventory tracking and integration with Odoo ERP. It uses weight sensors and a camera to monitor stock levels on a shelf, providing both quantitative and visual data. The system is built on an ESP32 microcontroller for sensor data acquisition and a Raspberry Pi for data processing, API communication, and serving a live graphical dashboard.
-
-The project involved developing firmware for the ESP32 to read from load cells and a presence sensor, then transmitting this data via MQTT. The Raspberry Pi processes this data, converts weight measurements into item counts, and uses the Odoo XML-RPC API to update inventory levels automatically. A custom Tkinter GUI provides a visual planogram of the shelf, while Grafana dashboards offer live monitoring and historical trends.
-
-**Key Features:**
-
-- **Real-Time ERP Integration:** Automatically updates Odoo inventory levels based on weight measurements.
-
-- **Multi-Sensor Data Fusion:** Combines weight data from load cells with visual verification from a camera.
-
-- **Presence-Based Activation:** Conserves power by only activating measurements when a user is detected.
-
-- **Live Dashboards & GUI:** Features Grafana for data visualization and a custom Tkinter application for a live shelf planogram.
-
-- **End-to-End Automation:** Completes the full data cycle from physical shelf to ERP update in seconds.
-
-**Key Skills:** `ESP32` `Embedded C++` `Raspberry Pi` `Python` `MQTT` `Odoo API` `ERP` `APIs` `Tkinter` `Grafana` `IoT Architecture` `Flask`
-
-
-
 ### [SmartShelf - IoT Inventory Tracking System](EmbeddedSystem_intrenship.pdf)
 SmartShelf is an IoT-enabled system designed to automate real-time inventory tracking and synchronize stock levels with **Odoo ERP**. It combines weight sensors, presence detection, and a camera to provide both quantitative and visual data for multiple products on a shelf.
 
