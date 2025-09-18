@@ -60,12 +60,6 @@ This project provided extensive experience in mechatronics, including mechanical
 
 **Key Skills:** `SolidWorks` `Arduino` `C++` `Sensor Integration` `3D Printing` `Project Management` `V&V`
 
-## 📁 Repository Structure
-├── LostorX Robot’s design and Implementation.pdf
-├── posterDesign 2.pdf
-├── circuits_II_presentation.pdf
-├── baut project.pdf
-└── README.md
 
 ## 📬 Contact
 - **Name:** Abir Alasam
