@@ -63,7 +63,7 @@ This project provided extensive experience in mechatronics, including mechanical
 
 ## 📬 Contact
 - **Name:** Abir Alasam
-- **Email:** abeer.alassam2001@gmail.com
+- **Email:** abir.alasam@icloud.com
 - **LinkedIn:** [www.linkedin.com/in/abir-alasam-1b3329262]
 
 ---
